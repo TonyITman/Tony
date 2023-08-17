@@ -49,10 +49,6 @@ var TxtType = function(el, toRotate, period) {
             }
         }
         //set time out for load
-        setTimeout(function(time) {
-          document.querySelector('.preloader').style.display = 'none';
-        }, 2000); // Change the delay time as needed
-        
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
