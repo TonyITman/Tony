@@ -49,7 +49,7 @@ var TxtType = function(el, toRotate, period) {
             }
         }
         //set time out for load
-        setTimeout(function() {
+        setTimeout(function(time) {
           document.querySelector('.preloader').style.display = 'none';
         }, 2000); // Change the delay time as needed
         
