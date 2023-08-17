@@ -48,7 +48,6 @@ var TxtType = function(el, toRotate, period) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
-        //set time out for load
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
