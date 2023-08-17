@@ -49,6 +49,13 @@
                 new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
+
+        //insert time out for load
+              setTimeout(function() {
+                  document.querySelector('.preloader').style.display = 'none';
+                  document.querySelector('.content').style.display = 'block';
+                }, 2000); // Change the delay time as needed
+
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
